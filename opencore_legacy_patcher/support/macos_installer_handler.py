@@ -433,7 +433,7 @@ class RemoteInstallerCatalog:
             return {}
 
         newest_apps: dict = self.available_apps.copy()
-        supported_versions = ["10.13", "10.14", "10.15", "11", "12", "13", "14"]
+        supported_versions = ["10.13", "10.14", "10.15", "11", "12", "13", "14", "15"]
 
         for version in supported_versions:
             remote_version_minor = 0
